@@ -1,0 +1,180 @@
+\documentclass[12pt,letterpaper]{hmcpset}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+% CREDS to Jingnan Shi for typing this one %
+
+% info for header block in upper right hand corner
+\name{}
+\class{Math 30b – Orrison}
+\assignment{Partial Derivatives}
+\duedate{Friday, October 9, 2015}
+
+\newcommand{\pn}[1]{\left( #1 \right)}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\bk}[1]{\left[ #1 \right]}
+\newcommand{\vc}[1]{\left\langle #1 \right\rangle}
+
+\newcommand{\pder}[2]{\frac{\partial #1}{\partial #2}}
+
+\newcommand{\fx}{f \left( x \right) =}
+\newcommand*\LH{\ensuremath{\overset{\kern2pt L'H}{=}}}
+
+\begin{document}
+
+\problemlist{1.\{a,b,c\}, 2.\{a,b,c\}, 3.\{a,b,c\}, 4, 5}
+
+% 1.a %
+\begin{problem}[1.a]
+
+    Find the matrix $Df$ of partial derivatives for the following function:
+
+    \[
+        f\pn{x,y} = \vc{e^x, e^y, e^{\cos x}}\\
+    \]
+
+\end{problem}
+
+\begin{solution}
+
+\end{solution}
+
+% 1.b %
+\begin{problem}[1.b]
+
+    Find the matrix $Df$ of partial derivatives for the following function:
+
+    \[
+        f\pn{x,y,z} = \vc{x^2e^{x+y}, \cos\pn{x-y}}\\
+    \]
+
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+% 1.c %
+\begin{problem}[1.c]
+
+    Find the matrix $Df$ of partial derivatives for the following function:
+
+    \[
+        f\pn{x,y,z} = \vc{xy, \frac{x}{1+y^2}, e^{x^y}}\\
+    \]
+
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+% 2.a %
+\begin{problem}[2.a]
+
+    Find $\frac{\partial f}{\partial s}$ and $\frac{\partial f}{\partial t}$ for the following function in two ways: first use substitution, then use the chain rule:
+
+    \[
+        f\pn{x,y} = \sin\pn{xy} \text{ where $x=s+t$ and $y=s^2+t^2$}\\
+    \]
+
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+% 2.b %
+\begin{problem}[2.b]
+
+    Find $\frac{\partial f}{\partial s}$ and $\frac{\partial f}{\partial t}$ for the following function in two ways: first use substitution, then use the chain rule:
+
+    \[
+        f\pn{x,y} = e^{xy} \text{ where $x=\sin t$ and $y=e^{st}$}\\
+    \]
+
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+% 2.c %
+\begin{problem}[2.c]
+
+    Find $\frac{\partial f}{\partial s}$ and $\frac{\partial f}{\partial t}$ for the following function in two ways: first use substitution, then use the chain rule:
+
+    \[
+        f\pn{x,y,z} = \cos\pn{xyz} \text{ where $x=st$, $y=st^2$ and $z=st^3$}\\
+    \]
+
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+% 3.a %
+\begin{problem}[3.a]
+
+    Calculate $D\pn{f \circ g}$ in two ways: first use substitution, then use the chain rule:
+
+    \[
+        f\pn{x,y} = x^2 - 7y^2 \text{ and } g\pn{s,t} = \vc{st^2, se^t}\\
+    \]
+
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+% 3.b %
+\begin{problem}[3.b]
+
+    Calculate $D\pn{f \circ g}$ in two ways: first use substitution, then use the chain rule:
+
+    \[
+        f\pn{x,y} = \vc{xy-y^2, \cos x} \text{ and } g\pn{s,t} = \vc{\frac{s}{t}, st}\\
+    \]
+
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+% 3.c %
+\begin{problem}[3.c]
+
+    Calculate $D\pn{f \circ g}$ in two ways: first use substitution, then use the chain rule:
+
+    \[
+        f\pn{x,y,z} = \vc{e^x, e^{x+y}, e^{x+y+z}} \text{ and } g\pn{s,t} = \vc{e^s, e^t, e^{s-t}}\\
+    \]
+
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+% 4 %
+\begin{problem}[4]
+
+    Suppose an insect flies along a helical curve $x = 2 \cos t$, $y = 2 \sin t$, $z = 3t$. If the barometric pressure is varying from point to point as $P\pn{x, y, z} = 6x^2z/y$ atm, then use the chain rule to determine how the pressure is changing at the insect’s location when $t = \pi /4$ min.
+
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+% 5 %
+\begin{problem}[5]
+
+    Suppose $w = f\pn{\frac{x-y}{xy}, \frac{z - x}{xz}}$ is a differentiable function of $u=\frac{y - x}{xy}$ and $v = \frac{z - x}{xz}$. Show that
+
+    \[
+        x^2 \pder{w}{x} + y^2 \pder{w}{y} + z^2 \pder{w}{z} = 0.
+    \]
+
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+
+\end{document}
